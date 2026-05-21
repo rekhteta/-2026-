@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="uk" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Іпотека в Німеччині для українців у 2026 році | Інтерактивна інфографіка</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae2fd',
+                            500: '#0284c7',
+                            600: '#025a87',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        germany: {
+                            gold: '#FFCC00',
+                            red: '#FF0000',
+                            black: '#000000',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #0284c7;
+            cursor: pointer;
+            border: 2px solid white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            transition: transform 0.1s;
+        }
+        .custom-slider::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+        .step-active::before {
+            background-color: #0284c7 !important;
+            border-color: #bae2fd !important;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen">
+
+    <!-- Header Banner -->
+    <header class="relative bg-gradient-to-r from-brand-900 via-brand-800 to-slate-900 text-white overflow-hidden py-12 px-4 sm:px-6 lg:px-8 shadow-xl">
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)" />
+            </svg>
+        </div>
+        
+        <!-- Germany-Ukraine Visual Accent Line -->
+        <div class="absolute top-0 left-0 right-0 h-1.5 flex">
+            <div class="w-1/6 bg-germany-black"></div>
+            <div class="w-1/6 bg-germany-red"></div>
+            <div class="w-1/6 bg-germany-gold"></div>
+            <div class="w-3/6 bg-blue-500"></div>
+        </div>
+
+        <div class="max-w-6xl mx-auto relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-8">
+            <div class="space-y-4 max-w-2xl">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-sky-500/20 text-sky-300 border border-sky-500/30">
+                    <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
+                    Оновлено для 2026 року
+                </span>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
+                    Іпотека в Німеччині <br class="hidden sm:inline">
+                    <span class="text-sky-400">для українців у 2026 році</span>
+                </h1>
+                <p class="text-slate-300 text-base sm:text-lg">
+                    Повний інтерактивний гід за матеріалами сайту <span class="text-white font-medium underline decoration-sky-400 decoration-2">Ukrainian in Germany</span>. Дізнайтеся вимоги банків, розрахуйте витрати та перевірте свої шанси на купівлю житла.
+                </p>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#calculator" class="px-6 py-3 bg-sky-500 hover:bg-sky-600 transition duration-150 rounded-xl font-bold text-center text-white shadow-lg hover:shadow-sky-500/20 flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 11h.01M12 14h.01M12 17h.01M15 11h.01M15 14h.01M9 11h.01M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"/></svg>
+                    Калькулятор кредиту
+                </a>
+                <a href="#roadmap" class="px-6 py-3 bg-slate-800 hover:bg-slate-750 transition duration-150 border border-slate-700 rounded-xl font-semibold text-center text-white flex items-center justify-center gap-2">
+                    Покроковий гід
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Key Insights Stats Grid -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+            <div class="bg-white p-5 rounded-2xl shadow-md border border-slate-100 flex items-start gap-4 hover:shadow-lg transition duration-250">
+                <div class="p-3 bg-sky-50 rounded-xl text-sky-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Власний капітал</span>
+                    <h3 class="text-xl font-black text-slate-900 mt-1">30% – 40%</h3>
+                    <p class="text-xs text-slate-500 mt-1">Для іноземців з тимчасовим статусом (включаючи §24)</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl shadow-md border border-slate-100 flex items-start gap-4 hover:shadow-lg transition duration-250">
+                <div class="p-3 bg-indigo-50 rounded-xl text-indigo-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Надбавка ставки</span>
+                    <h3 class="text-xl font-black text-slate-900 mt-1">+0.5% – 1.0%</h3>
+                    <p class="text-xs text-slate-500 mt-1">Додається банками до базової ставки для іноземців</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl shadow-md border border-slate-100 flex items-start gap-4 hover:shadow-lg transition duration-250">
+                <div class="p-3 bg-amber-50 rounded-xl text-amber-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Історія SCHUFA</span>
+                    <h3 class="text-xl font-black text-slate-900 mt-1">≥ 97%</h3>
+                    <p class="text-xs text-slate-500 mt-1">Мінімальний кредитний рейтинг для схвалення</p>
+                </div>
+            </div>
+
+            <div class="bg-white p-5 rounded-2xl shadow-md border border-slate-100 flex items-start gap-4 hover:shadow-lg transition duration-250">
+                <div class="p-3 bg-emerald-50 rounded-xl text-emerald-600">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                </div>
+                <div>
+                    <span class="text-xs text-slate-500 uppercase font-bold tracking-wider">Ліміт навантаження</span>
+                    <h3 class="text-xl font-black text-slate-900 mt-1">30% – 35%</h3>
+                    <p class="text-xs text-slate-500 mt-1">Максимальний місячний платіж від чистого доходу родини</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+        
+        <!-- Section: Interactive Calculator -->
+        <section id="calculator" class="bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden">
+            <div class="bg-gradient-to-r from-brand-800 to-brand-700 text-white p-6 sm:p-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                    <div>
+                        <h2 class="text-2xl font-black tracking-tight">Калькулятор іпотеки в Німеччині 2026</h2>
+                        <p class="text-slate-200 text-sm mt-1">Розрахуйте бюджет покупки та оцініть шанси схвалення</p>
+                    </div>
+                    <span class="px-3 py-1 bg-white/10 rounded-lg text-xs font-semibold backdrop-blur-sm">
+                        Враховує податки федеральних земель
+                    </span>
+                </div>
+            </div>
+
+            <div class="p-6 sm:p-8 lg:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+                <!-- Inputs Section (Left/Top) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2 pb-2 border-b border-slate-100">
+                        <span class="flex items-center justify-center w-6 h-6 bg-brand-100 text-brand-700 text-xs rounded-full font-black">1</span>
+                        Введіть ваші дані
+                    </h3>
+
+                    <!-- Input 1: Property Price -->
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <label for="propPrice" class="text-sm font-bold text-slate-700">Вартість нерухомості (€)</label>
+                            <span id="propPriceVal" class="text-base font-black text-brand-700 bg-brand-50 px-3 py-1 rounded-lg">350,000</span>
+                        </div>
+                        <input type="range" id="propPrice" min="100000" max="1000000" step="10000" value="350000" class="w-full h-2 bg-slate-100 rounded-lg appearance-none cursor-pointer custom-slider">
+                        <div class="flex justify-between text-[10px] text-slate-400">
+                            <span>100k €</span>
+                            <span>500k €</span>
+                            <span>1M €</span>
+                        </div>
+                    </div>
+
+                    <!-- Input 2: Savings (Eigenkapital) -->
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <label for="savings" class="text-sm font-bold text-slate-700">Наявні накопичення/Капітал (€)</label>
+                            <span id="savingsVal" class="text-base font-black text-brand-700 bg-brand-50 px-3 py-1 rounded-lg">120,000</span>
+                        </div>
+                        <input type="range" id="savings" min="20000" max="400000" step="5000" value="120000" class="w-full h-2 bg-slate-100 rounded-lg appearance-none cursor-pointer custom-slider">
+                        <div class="flex justify-between text-[10px] text-slate-400">
+                            <span>20k €</span>
+                            <span>200k €</span>
+                            <span>400k €</span>
+                        </div>
+                        <p class="text-[11px] text-slate-500 italic">Сюди повинні входити і кошти на додаткові витрати (Nebenkosten), які банки зазвичай не фінансують.</p>
+                    </div>
+
+                    <!-- Input 3: Monthly Net Income -->
+                    <div class="space-y-2">
+                        <div class="flex justify-between items-center">
+                            <label for="income" class="text-sm font-bold text-slate-700">Загальний місячний чистий дохід родини (Netto, €)</label>
+                            <span id="incomeVal" class="text-base font-black text-brand-700 bg-brand-50 px-3 py-1 rounded-lg">4,500</span>
+                        </div>
+                        <input type="range" id="income" min="1500" max="12000" step="100" value="4500" class="w-full h-2 bg-slate-100 rounded-lg appearance-none cursor-pointer custom-slider">
+                        <div class="flex justify-between text-[10px] text-slate-400">
+                            <span>1.5k €</span>
+                            <span>6k €</span>
+                            <span>12k €</span>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Select: State (Bundesland) for Taxes -->
+                        <div class="space-y-2">
+                            <label for="state" class="text-sm font-bold text-slate-700 block">Федеральна земля (Grunderwerbsteuer)</label>
+                            <select id="state" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm font-semibold text-slate-700 focus:ring-2 focus:ring-brand-500 bg-white">
+                                <option value="3.5">Баварія / Саксонія (3.5%)</option>
+                                <option value="5.0" selected>Баден-Вюртемберг / Тюрингія (5.0%)</option>
+                                <option value="6.0">Берлін / Гессен / Мекленбург (6.0%)</option>
+                                <option value="6.5">Бранденбург / NRW / Шлезвіг-Гольштейн (6.5%)</option>
+                            </select>
+                        </div>
+
+                        <!-- Select: Loan Term -->
+                        <div class="space-y-2">
+                            <label for="term" class="text-sm font-bold text-slate-700 block">Термін фіксації ставки (років)</label>
+                            <select id="term" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm font-semibold text-slate-700 focus:ring-2 focus:ring-brand-500 bg-white">
+                                <option value="10">10 років (орієнт. 4.4%)</option>
+                                <option value="15" selected>15-20 років (орієнт. 4.8%)</option>
+                                <option value="30">30 років (орієнт. 5.1%)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Select: Job Contract Status -->
+                        <div class="space-y-2">
+                            <label for="contract" class="text-sm font-bold text-slate-700 block">Трудовий договір в DE</label>
+                            <select id="contract" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm font-semibold text-slate-700 focus:ring-2 focus:ring-brand-500 bg-white">
+                                <option value="unlimited" selected>Безстроковий (Unbefristet)</option>
+                                <option value="probation">На випробувальному терміні (Probezeit)</option>
+                                <option value="limited">Строковий / Тимчасова робота</option>
+                            </select>
+                        </div>
+
+                        <!-- Select: Residency Status -->
+                        <div class="space-y-2">
+                            <label for="residency" class="text-sm font-bold text-slate-700 block">Статус проживання в DE</label>
+                            <select id="residency" class="w-full border border-slate-200 rounded-xl p-2.5 text-sm font-semibold text-slate-700 focus:ring-2 focus:ring-brand-500 bg-white">
+                                <option value="permanent" selected>Блакитна карта / Постійний ПМЖ</option>
+                                <option value="sec24">Тимчасовий захист (§ 24)</option>
+                                <option value="other">Інша віза / менше року в країні</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Section (Right/Bottom) -->
+                <div class="lg:col-span-5 bg-slate-50 rounded-2xl p-6 sm:p-8 border border-slate-200/60 flex flex-col justify-between space-y-6">
+                    <div>
+                        <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2 pb-2 border-b border-slate-200">
+                            <svg class="w-5 h-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                            Аналітика розрахунку
+                        </h3>
+
+                        <!-- Dynamically calculated outputs -->
+                        <div class="space-y-4 mt-6">
+                            
+                            <!-- Nebenkosten -->
+                            <div class="flex justify-between items-center text-sm">
+                                <span class="text-slate-500">Додаткові витрати (Nebenkosten):</span>
+                                <span id="nebenkostenVal" class="font-bold text-slate-950">€36,750</span>
+                            </div>
+
+                            <!-- Total Capital Required -->
+                            <div class="flex justify-between items-center text-sm border-b border-slate-200 pb-3">
+                                <span class="text-slate-500">Потрібно власного капіталу:</span>
+                                <div class="text-right">
+                                    <span id="capitalNeededVal" class="font-bold text-slate-950 block">€141,750</span>
+                                    <span class="text-[10px] text-slate-400 block">(30% внесок + Nebenkosten)</span>
+                                </div>
+                            </div>
+
+                            <!-- Net Loan Amount -->
+                            <div class="flex justify-between items-center text-sm mt-3">
+                                <span class="text-slate-500">Тіло кредиту (Сума від банку):</span>
+                                <span id="loanAmountVal" class="font-bold text-slate-950">€245,000</span>
+                            </div>
+
+                            <!-- Monthly Payment -->
+                            <div class="bg-brand-50 p-4 rounded-xl border border-brand-100/80 flex justify-between items-center mt-4">
+                                <div>
+                                    <span class="text-xs text-brand-800 uppercase font-extrabold tracking-wider block">Орієнтовний платіж:</span>
+                                    <span class="text-[10px] text-brand-600">(ануїтет, відсоток + погашення)</span>
+                                </div>
+                                <span id="monthlyPaymentVal" class="text-2xl font-black text-brand-700">€1,380 / міс</span>
+                            </div>
+
+                            <!-- Payment/Income Ratio -->
+                            <div class="space-y-1">
+                                <div class="flex justify-between text-xs font-semibold">
+                                    <span class="text-slate-500">Навантаження на дохід:</span>
+                                    <span id="incomeRatioVal" class="text-slate-900">30.7%</span>
+                                </div>
+                                <div class="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
+                                    <div id="ratioProgressBar" class="bg-emerald-500 h-full transition-all duration-300" style="width: 30%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Eligibility Indicator Card -->
+                    <div id="statusCard" class="bg-emerald-50 border border-emerald-100 p-4 rounded-xl mt-6">
+                        <div class="flex items-start gap-3">
+                            <div id="statusIcon" class="p-2 bg-emerald-500 text-white rounded-lg">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <div>
+                                <h4 id="statusTitle" class="font-bold text-emerald-900 text-sm">Шанси на схвалення високі</h4>
+                                <p id="statusDesc" class="text-xs text-emerald-800/90 mt-1">Ви забезпечуєте рекомендований внесок у 30%, а місячний платіж є цілком комфортним для вашого бюджету.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Dynamic Rates Table -->
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            <div class="lg:col-span-5 space-y-4">
+                <span class="px-3 py-1 bg-brand-100 text-brand-800 text-xs font-bold uppercase tracking-wider rounded-lg">Ставки у 2026 році</span>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-950 leading-tight">Базова ставка <br class="hidden sm:inline">vs Ставка для іноземців</h2>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    Німецькі банки закладають у ризики статус іноземця. У 2026 році для українців з тимчасовим статусом (§ 24) або терміновим контрактом діє надбавка від <strong>0.5% до 1.0%</strong> до стандартних ставок іпотеки.
+                </p>
+                <div class="p-4 bg-amber-50 rounded-xl border border-amber-200/60 flex items-start gap-3">
+                    <svg class="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    <p class="text-xs text-amber-900/95 leading-relaxed">
+                        <strong>Порада:</strong> Що більшим є ваш початковий внесок (наприклад, 40% замість 20%), то меншою буде надбавка від банку, оскільки фінансові ризики для кредитора знижуються.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Rates Grid Card -->
+            <div class="lg:col-span-7 bg-white rounded-3xl p-6 sm:p-8 shadow-lg border border-slate-100">
+                <div class="flex justify-between items-center pb-4 mb-6 border-b border-slate-100">
+                    <span class="font-bold text-slate-900 text-base">Актуальна сітка ставок (на 2026 р.)</span>
+                    <span class="text-xs text-slate-400">Джерело: Ukrainian in Germany</span>
+                </div>
+
+                <div class="space-y-4">
+                    
+                    <!-- Term 5 Years -->
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-2xl hover:bg-slate-50 transition duration-150 border border-slate-100 gap-4">
+                        <div class="flex items-center gap-3">
+                            <span class="w-10 h-10 rounded-xl bg-slate-100 font-extrabold text-slate-700 text-xs flex items-center justify-center">5р</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Короткострокова фіксація</h4>
+                                <span class="text-xs text-slate-500">Фіксація ставки на 5 років</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <div class="text-right">
+                                <span class="text-xs text-slate-400 block">Базова ставка</span>
+                                <span class="text-sm font-semibold text-slate-600">3.1% - 3.5%</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs text-brand-600 font-bold block">З надбавкою</span>
+                                <span class="text-base font-black text-brand-800">3.6% - 4.5%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Term 10 Years -->
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-2xl hover:bg-slate-50 transition duration-150 border border-slate-100 gap-4">
+                        <div class="flex items-center gap-3">
+                            <span class="w-10 h-10 rounded-xl bg-slate-100 font-extrabold text-slate-700 text-xs flex items-center justify-center">10р</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Стандартна фіксація</h4>
+                                <span class="text-xs text-slate-500">Найбільш популярний вибір у DE</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <div class="text-right">
+                                <span class="text-xs text-slate-400 block">Базова ставка</span>
+                                <span class="text-sm font-semibold text-slate-600">3.4% - 3.9%</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs text-brand-600 font-bold block">З надбавкою</span>
+                                <span class="text-base font-black text-brand-800">3.9% - 4.9%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Term 15-20 Years -->
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-2xl hover:bg-slate-50 transition duration-150 border border-slate-100 gap-4">
+                        <div class="flex items-center gap-3">
+                            <span class="w-10 h-10 rounded-xl bg-slate-100 font-extrabold text-slate-700 text-xs flex items-center justify-center">15р+</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Довгострокова стабільність</h4>
+                                <span class="text-xs text-slate-500">Захист від коливань ринку</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <div class="text-right">
+                                <span class="text-xs text-slate-400 block">Базова ставка</span>
+                                <span class="text-sm font-semibold text-slate-600">3.8% - 4.2%</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs text-brand-600 font-bold block">З надбавкою</span>
+                                <span class="text-base font-black text-brand-800">4.3% - 5.2%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Term 30 Years -->
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-2xl hover:bg-slate-50 transition duration-150 border border-slate-100 gap-4">
+                        <div class="flex items-center gap-3">
+                            <span class="w-10 h-10 rounded-xl bg-slate-100 font-extrabold text-slate-700 text-xs flex items-center justify-center">30р</span>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Максимальний термін</h4>
+                                <span class="text-xs text-slate-500">Фіксація до повного закриття</span>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-6">
+                            <div class="text-right">
+                                <span class="text-xs text-slate-400 block">Базова ставка</span>
+                                <span class="text-sm font-semibold text-slate-600">3.7% - 4.5%</span>
+                            </div>
+                            <div class="text-right">
+                                <span class="text-xs text-brand-600 font-bold block">З надбавкою</span>
+                                <span class="text-base font-black text-brand-800">4.2% - 5.5%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Step-by-Step Roadmap -->
+        <section id="roadmap" class="space-y-8">
+            <div class="text-center max-w-2xl mx-auto space-y-3">
+                <span class="px-3 py-1 bg-brand-100 text-brand-800 text-xs font-bold uppercase tracking-wider rounded-lg">Покрокова дорожня карта</span>
+                <h2 class="text-2xl sm:text-3xl font-black text-slate-950">Як отримати іпотеку в Німеччині</h2>
+                <p class="text-slate-600 text-sm">Шлях від підготовки документів до укладення фінального договору у нотаріуса.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Step 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:border-brand-300 transition duration-200 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-black text-brand-500 uppercase tracking-widest block">Крок 1</span>
+                        <span class="p-2 bg-brand-50 rounded-xl text-brand-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-slate-950 mb-2">Підготовка документів</h3>
+                    <p class="text-slate-600 text-xs leading-relaxed">
+                        Зберіть підтвердження стабільного доходу (3 останні зарплатні листки / Lohnabrechnung), копію трудового договору та актуальний статус перебування в країні.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:border-brand-300 transition duration-200 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-black text-brand-500 uppercase tracking-widest block">Крок 2</span>
+                        <span class="p-2 bg-brand-50 rounded-xl text-brand-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-slate-950 mb-2">Перевірка кредитної історії SCHUFA</h3>
+                    <p class="text-slate-600 text-xs leading-relaxed">
+                        Замовте довідку про ваш кредитний рейтинг. Для позитивного рішення банків показник SCHUFA має бути не менше <strong>97%</strong>. Перевірте, чи немає там помилкових заборгованостей.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:border-brand-300 transition duration-200 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-black text-brand-500 uppercase tracking-widest block">Крок 3</span>
+                        <span class="p-2 bg-brand-50 rounded-xl text-brand-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/></svg>
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-slate-950 mb-2">Історія банківського рахунку</h3>
+                    <p class="text-slate-600 text-xs leading-relaxed">
+                        Позичальник повинен мати відкритий та активно використовуваний банківський рахунок у Німеччині протягом щонайменше <strong>6–12 місяців</strong>.
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:border-brand-300 transition duration-200 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-black text-brand-500 uppercase tracking-widest block">Крок 4</span>
+                        <span class="p-2 bg-brand-50 rounded-xl text-brand-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-slate-950 mb-2">Пошук нерухомості та її аудит</h3>
+                    <p class="text-slate-600 text-xs leading-relaxed">
+                        Оберіть житло. Банки ретельно оцінюють ліквідність об’єкта, енергетичний паспорт (Energieausweis) та наявність усього пакета технічних документів будинку.
+                    </p>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:border-brand-300 transition duration-200 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-black text-brand-500 uppercase tracking-widest block">Крок 5</span>
+                        <span class="p-2 bg-brand-50 rounded-xl text-brand-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-slate-950 mb-2">Порівняння пропозицій та запит</h3>
+                    <p class="text-slate-600 text-xs leading-relaxed">
+                        Зверніться до незалежних іпотечних брокерів або напряму до банків. Отримайте офіційне попереднє підтвердження фінансування (Finanzierungsbestätigung).
+                    </p>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100 hover:border-brand-300 transition duration-200 relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-brand-500"></div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-black text-brand-500 uppercase tracking-widest block">Крок 6</span>
+                        <span class="p-2 bg-brand-50 rounded-xl text-brand-700">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                        </span>
+                    </div>
+                    <h3 class="text-base font-extrabold text-slate-950 mb-2">Підписання у нотаріуса та сплата податків</h3>
+                    <p class="text-slate-600 text-xs leading-relaxed">
+                        Нотаріус засвідчує угоду купівлі-продажу. Банк переказує кредитні кошти, ви вносите власний капітал та сплачуєте додаткові збори і мита за переоформлення.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section: State Support Programs -->
+        <section class="bg-slate-900 text-white rounded-3xl p-6 sm:p-8 lg:p-12 relative overflow-hidden shadow-2xl">
+            <div class="absolute top-0 right-0 opacity-10 w-96 h-96 pointer-events-none transform translate-x-1/4 -translate-y-1/4">
+                <svg class="w-full h-full text-white" viewBox="0 0 100 100" fill="currentColor">
+                    <circle cx="50" cy="50" r="40" />
+                </svg>
+            </div>
+
+            <div class="max-w-3xl space-y-4">
+                <span class="px-3 py-1 bg-sky-500/20 text-sky-300 text-xs font-bold uppercase tracking-wider rounded-lg border border-sky-500/30">Пільгове фінансування</span>
+                <h2 class="text-2xl sm:text-3xl font-black tracking-tight leading-none">Державні програми підтримки від KfW</h2>
+                <p class="text-slate-300 text-sm leading-relaxed">
+                    Для українців, які мають постійний ПМЖ або довгостроковий дозвіл на роботу у Німеччині, доступні спеціальні програми від державного банку розвитку <strong>KfW</strong>. Вони дають можливість отримати пільговий кредит зі зниженою відсотковою ставкою.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                
+                <!-- Program 1 -->
+                <div class="bg-slate-800/80 rounded-2xl p-6 border border-slate-700 backdrop-blur-sm flex flex-col justify-between space-y-4">
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-sky-400">Програма KfW 124</span>
+                            <span class="px-2 py-0.5 bg-sky-500/10 text-sky-300 text-[10px] font-semibold rounded border border-sky-500/20">До €100,000</span>
+                        </div>
+                        <h3 class="text-lg font-extrabold text-white">Власна житлова програма (Wohneigentumsprogramm)</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Орієнтована на фінансування купівлі або будівництва житла для власного проживання. Забезпечує тривалу фіксацію низької відсоткової ставки та гнучкі умови повернення тіла кредиту в перші роки.
+                        </p>
+                    </div>
+                    <div class="pt-2 border-t border-slate-700/60 flex justify-between items-center">
+                        <span class="text-xs text-slate-400">Вимога: власне проживання</span>
+                        <a href="https://www.kfw.de" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-sky-400 hover:text-sky-300 transition flex items-center gap-1">
+                            Офіційний сайт
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Program 2 -->
+                <div class="bg-slate-800/80 rounded-2xl p-6 border border-slate-700 backdrop-blur-sm flex flex-col justify-between space-y-4">
+                    <div class="space-y-2">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold text-emerald-400">Програма KfW 300</span>
+                            <span class="px-2 py-0.5 bg-emerald-500/10 text-emerald-300 text-[10px] font-semibold rounded border border-emerald-500/20">Для родин з дітьми</span>
+                        </div>
+                        <h3 class="text-lg font-extrabold text-white">Житлова власність для сімей (WEF)</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">
+                            Державна допомога для сімей з низьким та середнім рівнем річного доходу, що мають неповнолітніх дітей. Програма фінансує будівництво або першу купівлю високоекологічного та енергоефективного житла.
+                        </p>
+                    </div>
+                    <div class="pt-2 border-t border-slate-700/60 flex justify-between items-center">
+                        <span class="text-xs text-slate-400">Залежить від доходів родини</span>
+                        <a href="https://www.kfw.de" target="_blank" rel="noopener noreferrer" class="text-xs font-bold text-emerald-400 hover:text-emerald-300 transition flex items-center gap-1">
+                            Офіційний сайт
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section: Essential Tips & Warnings -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-100 shadow-md space-y-4">
+                <h3 class="text-lg font-black text-slate-950 flex items-center gap-2">
+                    <span class="p-1.5 bg-emerald-50 text-emerald-700 rounded-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </span>
+                    Як підвищити шанси на схвалення
+                </h3>
+                <ul class="space-y-3 text-slate-650 text-xs sm:text-sm">
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-emerald-500 font-bold mt-0.5">✓</span>
+                        <span><strong>Два позичальники:</strong> Заявка від подружжя суттєво зменшує ризик для банку.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-emerald-500 font-bold mt-0.5">✓</span>
+                        <span><strong>Статус перебування:</strong> Перевагу мають особи з Niederlassungserlaubnis (ПМЖ) або тривалим контрактом.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-emerald-500 font-bold mt-0.5">✓</span>
+                        <span><strong>Додаткові доходи:</strong> Підтвердження дитячих виплат (Kindergeld) або інших стабільних надходжень на території Німеччини.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-100 shadow-md space-y-4">
+                <h3 class="text-lg font-black text-slate-950 flex items-center gap-2">
+                    <span class="p-1.5 bg-red-50 text-red-700 rounded-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                    </span>
+                    Головні фактори ризику
+                </h3>
+                <ul class="space-y-3 text-slate-650 text-xs sm:text-sm">
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-red-500 font-bold mt-0.5">✕</span>
+                        <span><strong>Випробувальний термін:</strong> Отримати схвалення під час Probezeit майже неможливо.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-red-500 font-bold mt-0.5">✕</span>
+                        <span><strong>Вік позичальника:</strong> Кредитний договір має бути повністю виплачений до моменту офіційного виходу на пенсію.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <span class="text-red-500 font-bold mt-0.5">✕</span>
+                        <span><strong>Тільки іноземна валюта:</strong> Доходи поза межами єврозони оцінюються з високим дисконтом через ризики валютних коливань.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-800 text-center">
+        <div class="max-w-6xl mx-auto space-y-4">
+            <p class="text-sm">
+                Інфографіка підготовлена на основі відкритих даних та аналітичних матеріалів статті порталу <span class="text-white">Ukrainian in Germany</span> про умови іпотеки на 2026 рік.
+            </p>
+            <p class="text-[11px] text-slate-500 max-w-xl mx-auto leading-relaxed">
+                Попередження: Наведені розрахунки та ставки є орієнтовними. Кінцеве рішення про надання кредиту та розмір процентної ставки приймається банком на основі індивідуального аудиту фінансового стану позичальника.
+            </p>
+            <div class="pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-600 gap-4">
+                <span>© 2026 Ukrainian in Germany Infographics. Всі права захищено.</span>
+                <span class="flex items-center gap-1.5">
+                    Розроблено за стандартами німецьких фінансових установ
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive JS logic -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            
+            // DOM Elements
+            const propPriceInput = document.getElementById("propPrice");
+            const propPriceValEl = document.getElementById("propPriceVal");
+            const savingsInput = document.getElementById("savings");
+            const savingsValEl = document.getElementById("savingsVal");
+            const incomeInput = document.getElementById("income");
+            const incomeValEl = document.getElementById("incomeVal");
+            
+            const stateSelect = document.getElementById("state");
+            const termSelect = document.getElementById("term");
+            const contractSelect = document.getElementById("contract");
+            const residencySelect = document.getElementById("residency");
+
+            const nebenkostenValEl = document.getElementById("nebenkostenVal");
+            const capitalNeededValEl = document.getElementById("capitalNeededVal");
+            const loanAmountValEl = document.getElementById("loanAmountVal");
+            const monthlyPaymentValEl = document.getElementById("monthlyPaymentVal");
+            const incomeRatioValEl = document.getElementById("incomeRatioVal");
+            const ratioProgressBar = document.getElementById("ratioProgressBar");
+
+            const statusCard = document.getElementById("statusCard");
+            const statusIcon = document.getElementById("statusIcon");
+            const statusTitle = document.getElementById("statusTitle");
+            const statusDesc = document.getElementById("statusDesc");
+
+            // Format number helpers
+            function formatCurrency(num) {
+                return num.toLocaleString('en-US').replace(/,/g, ' ');
+            }
+
+            // Calculations
+            function updateCalculator() {
+                const price = parseInt(propPriceInput.value);
+                const savings = parseInt(savingsInput.value);
+                const income = parseInt(incomeInput.value);
+                
+                const taxRate = parseFloat(stateSelect.value);
+                const termYears = parseInt(termSelect.value);
+                const contract = contractSelect.value;
+                const residency = residencySelect.value;
+
+                // 1. Nebenkosten (Grunderwerbsteuer + Notary 2% + Broker ~3.5%)
+                // We assume average notary 2%, average broker 3.5% = 5.5% fixed additional costs
+                const additionalRate = taxRate + 5.5; 
+                const nebenkosten = Math.round(price * (additionalRate / 100));
+
+                // 2. Minimum recommended downpayment rate (typically 30% for foreigners in 2026, or 20% for residents)
+                const minDownpaymentPct = (residency === 'sec24' || residency === 'other') ? 0.35 : 0.20;
+                const recommendedDownpayment = Math.round(price * minDownpaymentPct);
+                const totalCapitalNeeded = recommendedDownpayment + nebenkosten;
+
+                // 3. Loan calculation
+                // Bank loan is what is left from price after user uses savings to pay Nebenkosten and the rest as downpayment.
+                // Available downpayment from savings = savings - nebenkosten
+                const actualDownpayment = Math.max(0, savings - nebenkosten);
+                const loanAmount = Math.max(0, price - actualDownpayment);
+
+                // 4. Interest Rate & Surcharges (Based on term and residency/contract)
+                let baseRate = 3.6; // average
+                if (termYears === 10) baseRate = 3.5;
+                if (termYears === 15) baseRate = 3.9;
+                if (termYears === 30) baseRate = 4.3;
+
+                let surcharge = 0.5;
+                if (residency === 'sec24') surcharge = 1.0;
+                if (residency === 'other') surcharge = 1.2;
+                if (contract === 'probation' || contract === 'limited') surcharge += 0.3;
+
+                const finalInterestRate = (baseRate + surcharge) / 100;
+
+                // 5. Monthly payment calculation (standard annuity)
+                // In Germany, monthly payment comprises interest + Tilgung (principal repayment)
+                // Let's assume a default amortization matching the chosen term, or a minimum 2% Tilgung
+                // We'll use the standard annuity formula:
+                const monthlyInterestRate = finalInterestRate / 12;
+                const totalPayments = termYears * 12;
+                
+                let monthlyPayment = 0;
+                if (loanAmount > 0) {
+                    if (monthlyInterestRate > 0) {
+                        monthlyPayment = Math.round(
+                            loanAmount * (monthlyInterestRate * Math.pow(1 + monthlyInterestRate, totalPayments)) / 
+                            (Math.pow(1 + monthlyInterestRate, totalPayments) - 1)
+                        );
+                    } else {
+                        monthlyPayment = Math.round(loanAmount / totalPayments);
+                    }
+                }
+
+                // 6. Income ratio
+                const ratio = income > 0 ? (monthlyPayment / income) * 100 : 0;
+
+                // Update UI values
+                propPriceValEl.textContent = formatCurrency(price);
+                savingsValEl.textContent = formatCurrency(savings);
+                incomeValEl.textContent = formatCurrency(income);
+
+                nebenkostenValEl.textContent = `€${formatCurrency(nebenkosten)}`;
+                capitalNeededValEl.textContent = `€${formatCurrency(totalCapitalNeeded)}`;
+                loanAmountValEl.textContent = `€${formatCurrency(loanAmount)}`;
+                monthlyPaymentValEl.textContent = `€${formatCurrency(monthlyPayment)} / міс`;
+                incomeRatioValEl.textContent = `${ratio.toFixed(1)}%`;
+
+                // Update progress bar
+                ratioProgressBar.style.width = `${Math.min(ratio, 100)}%`;
+                if (ratio > 35) {
+                    ratioProgressBar.className = "bg-red-500 h-full transition-all duration-300";
+                } else if (ratio > 30) {
+                    ratioProgressBar.className = "bg-amber-500 h-full transition-all duration-300";
+                } else {
+                    ratioProgressBar.className = "bg-emerald-500 h-full transition-all duration-300";
+                }
+
+                // Eligibility Evaluation & status card styling
+                evaluateStatus(price, savings, income, totalCapitalNeeded, ratio, residency, contract, actualDownpayment);
+            }
+
+            function evaluateStatus(price, savings, income, totalCapitalNeeded, ratio, residency, contract, actualDownpayment) {
+                
+                // Clear existing styles
+                statusCard.className = "p-4 rounded-xl mt-6 transition duration-300 border ";
+                statusIcon.innerHTML = '';
+
+                let status = "green"; // green, yellow, red
+                let title = "Шанси на схвалення високі";
+                let desc = "Ваші показники повністю відповідають стандартам банків Німеччини для іноземців.";
+
+                // Critical blockers
+                if (contract === 'probation') {
+                    status = "red";
+                    title = "Угода малоймовірна (Випробувальний термін)";
+                    desc = "Німецькі банки зазвичай відмовляють у фінансуванні, якщо ви перебуваєте на випробувальному терміні (Probezeit). Зачекайте на його завершення.";
+                } else if (savings < totalCapitalNeeded * 0.7) {
+                    status = "red";
+                    title = "Недостатньо власного капіталу";
+                    desc = `Для покупки за такою ціною вам потрібно накопичити приблизно €${formatCurrency(totalCapitalNeeded)}, щоб покрити обов'язкові Nebenkosten та мінімальний перший внесок у 30-35% для іноземців.`;
+                } else if (ratio > 40) {
+                    status = "red";
+                    title = "Критичне навантаження на дохід";
+                    desc = `Очікуваний платіж перевищує 40% вашого чистого доходу. Банк, швидше за все, відхилить заявку. Спробуйте обрати дешевшу нерухомість або збільшити перший внесок.`;
+                }
+                // Warning states
+                else if (residency === 'sec24' && status === 'green') {
+                    status = "yellow";
+                    title = "Потрібен детальний розгляд (§ 24)";
+                    desc = "З тимчасовим захистом (§ 24) банки вимагають більший власний капітал (від 35-40%) та суворіше оцінюють стабільність трудового договору. Радимо звернутися до іпотечного брокера.";
+                } else if (ratio > 32 && status === 'green') {
+                    status = "yellow";
+                    title = "Підвищене фінансове навантаження";
+                    desc = `Ваш платіж становить ${ratio.toFixed(1)}% від чистого доходу. Це на межі ліміту (30-35%). Оформлення можливе, але банк буде детально аналізувати ваші побутові витрати.`;
+                } else if (actualDownpayment / price < 0.3 && status === 'green') {
+                    status = "yellow";
+                    title = "Потрібен більший перший внесок";
+                    desc = "Оскільки ваш чистий внесок у житло є меншим за 30% (після сплати Nebenkosten), деякі банки можуть застосувати суттєву надбавку до відсоткової ставки.";
+                }
+
+                // Render styles according to evaluation
+                if (status === "green") {
+                    statusCard.classList.add("bg-emerald-50", "border-emerald-200");
+                    statusIcon.className = "p-2 bg-emerald-500 text-white rounded-lg flex-shrink-0";
+                    statusIcon.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>`;
+                    statusTitle.className = "font-bold text-emerald-900 text-sm";
+                    statusDesc.className = "text-xs text-emerald-800/90 mt-1";
+                } else if (status === "yellow") {
+                    statusCard.classList.add("bg-amber-50", "border-amber-200");
+                    statusIcon.className = "p-2 bg-amber-500 text-white rounded-lg flex-shrink-0";
+                    statusIcon.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>`;
+                    statusTitle.className = "font-bold text-amber-900 text-sm";
+                    statusDesc.className = "text-xs text-amber-800/90 mt-1";
+                } else {
+                    statusCard.classList.add("bg-red-50", "border-red-200");
+                    statusIcon.className = "p-2 bg-red-500 text-white rounded-lg flex-shrink-0";
+                    statusIcon.innerHTML = `<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"/></svg>`;
+                    statusTitle.className = "font-bold text-red-900 text-sm";
+                    statusDesc.className = "text-xs text-red-800/90 mt-1";
+                }
+
+                statusTitle.textContent = title;
+                statusDesc.textContent = desc;
+            }
+
+            // Event Listeners for real-time calculation
+            propPriceInput.addEventListener("input", updateCalculator);
+            savingsInput.addEventListener("input", updateCalculator);
+            incomeInput.addEventListener("input", updateCalculator);
+            stateSelect.addEventListener("change", updateCalculator);
+            termSelect.addEventListener("change", updateCalculator);
+            contractSelect.addEventListener("change", updateCalculator);
+            residencySelect.addEventListener("change", updateCalculator);
+
+            // Initial calculation
+            updateCalculator();
+        });
+    </script>
+</body>
+</html>
