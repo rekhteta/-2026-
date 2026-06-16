@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="uk" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ink Рідери з Google Play — Детальне порівняння в Німеччині</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts for premium look -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+    </style>
+</head>
+<body class="min-h-screen text-slate-800 antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm backdrop-blur-md bg-white/95">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="p-2 bg-slate-900 text-white rounded-lg">
+                    <!-- SVG Logo Book Icon -->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight text-slate-900">E-Ink Ринки Німеччини</h1>
+                    <p class="text-xs text-slate-500">Порівняння преміум-рідерів на базі Android та Google Play</p>
+                </div>
+            </div>
+            <div class="flex gap-2 text-xs font-semibold text-slate-600 bg-slate-100 p-1.5 rounded-lg border border-slate-200">
+                <span class="px-2.5 py-1 rounded bg-white text-slate-900 shadow-sm">Німеччина (DE)</span>
+                <span class="px-2.5 py-1">2026 Онлайн-Дані</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
+
+        <!-- Hero Intro Section -->
+        <section class="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white rounded-2xl p-6 sm:p-10 shadow-xl relative overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(99,102,241,0.15),transparent)]"></div>
+            <div class="relative z-10 max-w-3xl space-y-4">
+                <span class="bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Гід Покупця</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Рідери з безмежним вибором книг</h2>
+                <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
+                    На відміну від звичайних закритих систем (Kindle, Tolino чи Kobo), пристрої на <strong>Android з Google Play</strong> дозволяють ставити будь-які програми: українські бібліотеки, хмарні сховища чи іноземні сервіси. Ми проаналізували 4 найкращі варіанти, які легко купити в Німеччині.
+                </p>
+            </div>
+        </section>
+
+        <!-- Dynamic Battery Simulator -->
+        <section class="bg-white rounded-2xl p-6 shadow-md border border-slate-200 space-y-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h3 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                        <svg class="w-5 h-5 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                        Калькулятор реального часу роботи (Android E-Ink)
+                    </h3>
+                    <p class="text-sm text-slate-500">Оскільки сервіси Google працюють у фоні, налаштуйте параметри використання, щоб побачити симуляцію життя батареї.</p>
+                </div>
+            </div>
+
+            <!-- Simulator Controls -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-50 p-5 rounded-xl border border-slate-200">
+                <!-- Control 1: Daily Reading -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-semibold text-slate-700 flex justify-between">
+                        <span>Читання на день:</span>
+                        <span id="reading-hours-val" class="text-indigo-600 font-bold">2 год</span>
+                    </label>
+                    <input id="reading-hours-range" type="range" min="0.5" max="6" step="0.5" value="2" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600">
+                    <span class="text-[11px] text-slate-400 block">Час активного екрана щодня.</span>
+                </div>
+
+                <!-- Control 2: WiFi usage -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-semibold text-slate-700">Статус Wi-Fi:</label>
+                    <div class="grid grid-cols-3 gap-2">
+                        <button onclick="setWifi('always')" id="wifi-always" class="wifi-btn px-3 py-1.5 text-xs font-semibold rounded-lg border border-indigo-600 bg-indigo-50 text-indigo-700 transition">Завжди увімк.</button>
+                        <button onclick="setWifi('smart')" id="wifi-smart" class="wifi-btn px-3 py-1.5 text-xs font-semibold rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 transition">Автовимкнення</button>
+                        <button onclick="setWifi('off')" id="wifi-off" class="wifi-btn px-3 py-1.5 text-xs font-semibold rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 transition">Офлайн</button>
+                    </div>
+                    <span class="text-[11px] text-slate-400 block">Постійне підключення прискорює розряд.</span>
+                </div>
+
+                <!-- Control 3: Backlight level -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-semibold text-slate-700 flex justify-between">
+                        <span>Підсвічування:</span>
+                        <span id="brightness-val" class="text-indigo-600 font-bold">50%</span>
+                    </label>
+                    <input id="brightness-range" type="range" min="0" max="100" step="10" value="50" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600">
+                    <span class="text-[11px] text-slate-400 block">Рівень яскравості теплого/холодного тону.</span>
+                </div>
+            </div>
+
+            <!-- Simulator Results -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Result 1 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-white flex flex-col justify-between shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-blue-500"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-slate-900">Onyx Boox Page</h4>
+                            <span class="text-[10px] bg-blue-100 text-blue-800 font-bold px-1.5 py-0.5 rounded">2300 mAh</span>
+                        </div>
+                        <p class="text-[11px] text-slate-400">Чудова оптимізація фону</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="text-3xl font-black text-slate-900" id="days-boox-page">21 <span class="text-sm font-medium text-slate-500">днів</span></div>
+                        <div class="w-full bg-slate-100 h-1.5 rounded-full mt-2 overflow-hidden">
+                            <div id="progress-boox-page" class="bg-blue-500 h-full transition-all duration-300" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result 2 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-white flex flex-col justify-between shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-violet-500"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-slate-900">Bigme B751</h4>
+                            <span class="text-[10px] bg-violet-100 text-violet-800 font-bold px-1.5 py-0.5 rounded">2300 mAh</span>
+                        </div>
+                        <p class="text-[11px] text-slate-400">Швидкий чип + Стилус у роботі</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="text-3xl font-black text-slate-900" id="days-bigme">13 <span class="text-sm font-medium text-slate-500">днів</span></div>
+                        <div class="w-full bg-slate-100 h-1.5 rounded-full mt-2 overflow-hidden">
+                            <div id="progress-bigme" class="bg-violet-500 h-full transition-all duration-300" style="width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result 3 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-white flex flex-col justify-between shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-emerald-500"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-slate-900">Meebook M7</h4>
+                            <span class="text-[10px] bg-emerald-100 text-emerald-800 font-bold px-1.5 py-0.5 rounded">2900 mAh</span>
+                        </div>
+                        <p class="text-[11px] text-slate-400">Максимальна ємність батареї</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="text-3xl font-black text-slate-900" id="days-meebook">26 <span class="text-sm font-medium text-slate-500">днів</span></div>
+                        <div class="w-full bg-slate-100 h-1.5 rounded-full mt-2 overflow-hidden">
+                            <div id="progress-meebook" class="bg-emerald-500 h-full transition-all duration-300" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Result 4 -->
+                <div class="border border-slate-200 rounded-xl p-4 bg-white flex flex-col justify-between shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-1.5 h-full bg-amber-500"></div>
+                    <div>
+                        <div class="flex justify-between items-start mb-1">
+                            <h4 class="font-bold text-slate-900">Onyx Boox Poke 5</h4>
+                            <span class="text-[10px] bg-amber-100 text-amber-800 font-bold px-1.5 py-0.5 rounded">1500 mAh</span>
+                        </div>
+                        <p class="text-[11px] text-slate-400">Мініатюрний корпус</p>
+                    </div>
+                    <div class="mt-4">
+                        <div class="text-3xl font-black text-slate-900" id="days-poke">11 <span class="text-sm font-medium text-slate-500">днів</span></div>
+                        <div class="w-full bg-slate-100 h-1.5 rounded-full mt-2 overflow-hidden">
+                            <div id="progress-poke" class="bg-amber-500 h-full transition-all duration-300" style="width: 35%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Product Comparison Grid -->
+        <section class="space-y-4">
+            <h3 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                <svg class="w-6 h-6 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                </svg>
+                Аналіз пристроїв та їх переваги
+            </h3>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+                <!-- Onyx Boox Page Card -->
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition">
+                    <div class="p-5 bg-gradient-to-br from-slate-100 to-slate-200 border-b border-slate-200 text-center relative">
+                        <span class="absolute top-3 right-3 bg-blue-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Вибір Редакції</span>
+                        <!-- Custom Vector SVG of Onyx Boox Page -->
+                        <svg class="w-24 h-24 mx-auto my-2 text-slate-700 drop-shadow-sm" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="10" width="70" height="100" rx="8" fill="#1e293b"/>
+                            <rect x="17" y="12" width="66" height="96" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+                            <rect x="22" y="16" width="46" height="88" rx="2" fill="#e2e8f0"/>
+                            <!-- Buttons on side -->
+                            <rect x="74" y="35" width="4" height="18" rx="2" fill="#e2e8f0"/>
+                            <rect x="74" y="65" width="4" height="18" rx="2" fill="#e2e8f0"/>
+                            <!-- Stylized text lines inside screen -->
+                            <line x1="26" y1="24" x2="62" y2="24" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="26" y1="32" x2="62" y2="32" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="26" y1="40" x2="55" y2="40" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <h4 class="font-extrabold text-slate-950 text-lg mt-3">Onyx Boox Page</h4>
+                        <p class="text-xs text-slate-500">Портативний суперфлагман</p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-2 text-slate-900 font-semibold text-sm">
+                                <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                                Екран: 7" Carta 1200 (300 ppi)
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Найвища чіткість і контрастність екрана завдяки новій матриці Carta 1200. Фізичні кнопки працюють бездоганно в будь-яких застосунках.
+                            </p>
+                            <div class="space-y-1.5">
+                                <span class="text-xs font-bold text-slate-800">Переваги:</span>
+                                <ul class="text-xs text-slate-600 space-y-1">
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Тонкий преміум-корпус (6 мм)</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Швидкісний 8-ядерний процесор Qualcomm</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Чутливий G-сенсор (автообертання)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                            <span class="text-slate-500">Ціна в DE:</span>
+                            <span class="text-slate-900 bg-slate-100 px-2 py-1 rounded">~ €280</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bigme B751 Card -->
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition">
+                    <div class="p-5 bg-gradient-to-br from-violet-50 to-violet-100 border-b border-slate-200 text-center relative">
+                        <span class="absolute top-3 right-3 bg-violet-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Зі Стилусом</span>
+                        <!-- Custom Vector SVG of Bigme B751 with Stylus -->
+                        <svg class="w-24 h-24 mx-auto my-2 text-violet-800 drop-shadow-sm" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="10" width="70" height="100" rx="8" fill="#1e1b4b"/>
+                            <rect x="17" y="12" width="66" height="96" rx="6" fill="#121026" stroke="#4338ca" stroke-width="1.5"/>
+                            <rect x="24" y="16" width="46" height="88" rx="2" fill="#faf5ff"/>
+                            <!-- Side panel and buttons -->
+                            <rect x="19" y="35" width="3" height="16" rx="1.5" fill="#c084fc"/>
+                            <rect x="19" y="55" width="3" height="16" rx="1.5" fill="#c084fc"/>
+                            <!-- Pen -->
+                            <path d="M78 20 L83 15 L86 18 L81 23 Z" fill="#c084fc"/>
+                            <rect x="76" y="24" width="2" height="60" rx="1" fill="#818cf8"/>
+                            <path d="M76 84 L77 88 L78 84 Z" fill="#c084fc"/>
+                        </svg>
+                        <h4 class="font-extrabold text-slate-950 text-lg mt-3">Bigme B751</h4>
+                        <p class="text-xs text-slate-500">Універсальний блокнот</p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-2 text-slate-900 font-semibold text-sm">
+                                <span class="w-2 h-2 rounded-full bg-violet-500"></span>
+                                Екран: 7" E-Ink Carta (300 ppi)
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Унікальний варіант у 7-дюймовому форматі, який перетворюється на блокнот для щоденних нотаток та швидких замальовок завдяки Wacom стилусу.
+                            </p>
+                            <div class="space-y-1.5">
+                                <span class="text-xs font-bold text-slate-800">Переваги:</span>
+                                <ul class="text-xs text-slate-600 space-y-1">
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Активний стилус та фірмовий чохол у комплекті</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> 4 ГБ оперативної пам'яті / 64 ГБ пам'яті</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Швидке глобальне розпізнавання рукописного тексту</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                            <span class="text-slate-500">Ціна в DE:</span>
+                            <span class="text-slate-900 bg-slate-100 px-2 py-1 rounded">~ €230</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meebook M7 Card -->
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition">
+                    <div class="p-5 bg-gradient-to-br from-emerald-50 to-emerald-100 border-b border-slate-200 text-center relative">
+                        <span class="absolute top-3 right-3 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Найкраща Ціна</span>
+                        <!-- Custom Vector SVG of Meebook M7 -->
+                        <svg class="w-24 h-24 mx-auto my-2 text-emerald-800 drop-shadow-sm" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="15" y="10" width="70" height="100" rx="8" fill="#064e3b"/>
+                            <rect x="17" y="12" width="66" height="96" rx="6" fill="#022c22" stroke="#059669" stroke-width="1.5"/>
+                            <rect x="21" y="16" width="48" height="88" rx="2" fill="#ecfdf5"/>
+                            <!-- Side Buttons -->
+                            <rect x="71" y="38" width="4" height="20" rx="2" fill="#34d399"/>
+                            <rect x="71" y="62" width="4" height="20" rx="2" fill="#34d399"/>
+                        </svg>
+                        <h4 class="font-extrabold text-slate-950 text-lg mt-3">Meebook M7</h4>
+                        <p class="text-xs text-slate-500">Автономний прагматик</p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-2 text-slate-900 font-semibold text-sm">
+                                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                                Екран: 6.8" E-Ink Carta (300 ppi)
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Найбільш оптимальний бюджетний вибір із солідним часом автономності завдяки великій батареї на 2900 mAh та стабільному 4-ядерному енергозберігаючому чипу.
+                            </p>
+                            <div class="space-y-1.5">
+                                <span class="text-xs font-bold text-slate-800">Переваги:</span>
+                                <ul class="text-xs text-slate-600 space-y-1">
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Величезна батарея (2900 mAh) — тримає найдовше</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Повноцінна підтримка MicroSD карт до 1 ТБ</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Чудовий захисний шар екрана</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                            <span class="text-slate-500">Ціна в DE:</span>
+                            <span class="text-slate-900 bg-slate-100 px-2 py-1 rounded">~ €190</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Onyx Boox Poke 5 Card -->
+                <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition">
+                    <div class="p-5 bg-gradient-to-br from-amber-50 to-amber-100 border-b border-slate-200 text-center relative">
+                        <span class="absolute top-3 right-3 bg-amber-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full">Ультракомпакт</span>
+                        <!-- Custom Vector SVG of Poke 5 -->
+                        <svg class="w-24 h-24 mx-auto my-2 text-amber-800 drop-shadow-sm" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="22" y="15" width="56" height="90" rx="6" fill="#78350f"/>
+                            <rect x="24" y="17" width="52" height="86" rx="4" fill="#451a03" stroke="#d97706" stroke-width="1.5"/>
+                            <rect x="28" y="21" width="44" height="74" rx="2" fill="#fffbeb"/>
+                        </svg>
+                        <h4 class="font-extrabold text-slate-950 text-lg mt-3">Onyx Boox Poke 5</h4>
+                        <p class="text-xs text-slate-500">Кишеньковий мандрівник</p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-6">
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-2 text-slate-900 font-semibold text-sm">
+                                <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+                                Екран: 6" Carta 1200 (300 ppi)
+                            </div>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Створений для поїздок та комфортного утримання однією рукою. Важить як середній смартфон (лише 160 г) та має преміальну збірку.
+                            </p>
+                            <div class="space-y-1.5">
+                                <span class="text-xs font-bold text-slate-800">Переваги:</span>
+                                <ul class="text-xs text-slate-600 space-y-1">
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Вага всього 160 г — не заважає в кишені</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Високоякісне магнітне кріплення чохла</li>
+                                    <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Захисне скло E-ink екрана врівень із рамкою</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                            <span class="text-slate-500">Ціна в DE:</span>
+                            <span class="text-slate-900 bg-slate-100 px-2 py-1 rounded">~ €185</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Detailed Technical Comparison Matrix Table -->
+        <section class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden space-y-4 p-6">
+            <h3 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                <svg class="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                </svg>
+                Зведена таблиця технічних характеристик
+            </h3>
+            <div class="overflow-x-auto custom-scrollbar">
+                <table class="w-full text-left text-sm border-collapse min-w-[800px]">
+                    <thead>
+                        <tr class="bg-slate-50 border-b border-slate-200">
+                            <th class="p-4 font-bold text-slate-700">Параметр</th>
+                            <th class="p-4 font-bold text-blue-800">Onyx Boox Page</th>
+                            <th class="p-4 font-bold text-violet-800">Bigme B751</th>
+                            <th class="p-4 font-bold text-emerald-800">Meebook M7</th>
+                            <th class="p-4 font-bold text-amber-800">Onyx Boox Poke 5</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100 text-slate-700">
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-900">Діагональ екрана</td>
+                            <td class="p-4">7 дюймів</td>
+                            <td class="p-4">7 дюймів</td>
+                            <td class="p-4">6.8 дюймів</td>
+                            <td class="p-4">6 дюймів</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="p-4 font-semibold text-slate-900">Тип матриці</td>
+                            <td class="p-4 font-medium text-slate-950">E Ink Carta 1200 (300 PPI)</td>
+                            <td class="p-4">E Ink Carta (300 PPI)</td>
+                            <td class="p-4">E Ink Carta (300 PPI)</td>
+                            <td class="p-4 font-medium text-slate-950">E Ink Carta 1200 (300 PPI)</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-900">Процесор</td>
+                            <td class="p-4">Qualcomm Octa-core (2.0 GHz)</td>
+                            <td class="p-4">MediaTek Octa-core (2.3 GHz)</td>
+                            <td class="p-4">Quad-core (1.8 GHz)</td>
+                            <td class="p-4">Quad-core (2.0 GHz)</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="p-4 font-semibold text-slate-900">Пам'ять (RAM / ROM)</td>
+                            <td class="p-4">3 ГБ / 32 ГБ</td>
+                            <td class="p-4 font-semibold text-indigo-700">4 ГБ / 64 ГБ</td>
+                            <td class="p-4">3 ГБ / 32 ГБ</td>
+                            <td class="p-4">2 ГБ / 32 ГБ</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-900">Підтримка карт пам'яті</td>
+                            <td class="p-4">Так (MicroSD до 512 ГБ)</td>
+                            <td class="p-4 font-semibold text-indigo-700">Так (MicroSD до 1 ТБ)</td>
+                            <td class="p-4 font-semibold text-indigo-700">Так (MicroSD до 1 ТБ)</td>
+                            <td class="p-4">Так (через слот-лоток)</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="p-4 font-semibold text-slate-900">Ємність батареї</td>
+                            <td class="p-4">2300 mAh</td>
+                            <td class="p-4">2300 mAh</td>
+                            <td class="p-4 font-bold text-emerald-700">2900 mAh</td>
+                            <td class="p-4">1500 mAh</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-900">Фізичні кнопки</td>
+                            <td class="p-4 text-emerald-600 font-medium">Так (на корпусі)</td>
+                            <td class="p-4 text-emerald-600 font-medium">Так (на корпусі)</td>
+                            <td class="p-4 text-emerald-600 font-medium">Так (на корпусі)</td>
+                            <td class="p-4 text-rose-500">Ні (лише кнопка живлення)</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="p-4 font-semibold text-slate-900">Стилус / Нотатки</td>
+                            <td class="p-4 text-rose-500">Ні</td>
+                            <td class="p-4 text-emerald-600 font-semibold">Так (активний Wacom)</td>
+                            <td class="p-4 text-rose-500">Ні</td>
+                            <td class="p-4 text-rose-500">Ні</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold text-slate-900">Вага пристрою</td>
+                            <td class="p-4">195 г</td>
+                            <td class="p-4">207 г</td>
+                            <td class="p-4">235 г</td>
+                            <td class="p-4 font-bold text-slate-900">160 г</td>
+                        </tr>
+                        <tr class="bg-slate-50/50">
+                            <td class="p-4 font-semibold text-slate-900">Операційна система</td>
+                            <td class="p-4">Android 11</td>
+                            <td class="p-4">Android 11</td>
+                            <td class="p-4">Android 11</td>
+                            <td class="p-4">Android 11</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- DE Purchasing & Optimization Guide -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Where to Buy in DE -->
+            <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+                <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+                    <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                    </svg>
+                    Де найвигідніше купувати у Німеччині?
+                </h3>
+                <div class="space-y-4 text-sm text-slate-600 leading-relaxed">
+                    <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
+                        <div class="flex justify-between font-bold text-slate-900 text-xs">
+                            <span>1. AMAZON DEUTSCHLAND (Amazon.de)</span>
+                            <span class="text-blue-600">Швидка доставка</span>
+                        </div>
+                        <p class="text-xs">Найкращий варіант для купівлі <strong>Meebook M7</strong> та <strong>Bigme B751</strong>. Тут діє найпростіша німецька гарантія та 30-денний термін на повернення без зайвих запитань.</p>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
+                        <div class="flex justify-between font-bold text-slate-900 text-xs">
+                            <span>2. BOOX EUROSHOP (euroshop.boox.com)</span>
+                            <span class="text-indigo-600">Комплекти з чохлом</span>
+                        </div>
+                        <p class="text-xs">Для пристроїв Onyx (Page, Poke 5) часто вигідніше купувати через офіційний європейський склад. Доставка в Німеччину триває 2-4 дні, а в коробку зазвичай безкоштовно додають оригінальний магнітний чохол.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optimization Tips for Battery -->
+            <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm space-y-4">
+                <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2">
+                    <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                    </svg>
+                    Поради щодо збереження заряду на Android
+                </h3>
+                <p class="text-xs text-slate-500">Android-рідери можуть «піджирати» заряд у режимі очікування. Ось прості кроки для подовження автономності:</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="p-3 border border-slate-100 rounded-lg bg-emerald-50/40">
+                        <span class="font-bold text-emerald-800 block mb-1">⏰ Автовимкнення Wi-Fi</span>
+                        Налаштуйте автоматичне вимкнення інтернету через 5 або 10 хвилин неактивності екрана.
+                    </div>
+                    <div class="p-3 border border-slate-100 rounded-lg bg-emerald-50/40">
+                        <span class="font-bold text-emerald-800 block mb-1">❄️ Заморожування додатків</span>
+                        Використовуйте вбудований «Диспетчер програм» для оптимізації фонової активності Google Play.
+                    </div>
+                    <div class="p-3 border border-slate-100 rounded-lg bg-emerald-50/40">
+                        <span class="font-bold text-emerald-800 block mb-1">🔌 Таймер сну / Глибокий сон</span>
+                        Поставте вимкнення пристрою, якщо не користуєтесь ним понад 12-24 години.
+                    </div>
+                    <div class="p-3 border border-slate-100 rounded-lg bg-emerald-50/40">
+                        <span class="font-bold text-emerald-800 block mb-1">🔆 Розумне підсвічування</span>
+                        Регулюйте тон холодного світла вдень та теплого вночі — це суттєво заощаджує LED-енергію.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 mt-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-2">
+            <p class="text-sm">Дашборд розроблено для українських читачів у Німеччині.</p>
+            <p class="text-xs text-slate-600">&copy; 2026 E-Ink DE Reader Guide. Всі права захищено. Торгові марки належать їх відповідним власникам.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JS Logic -->
+    <script>
+        // DOM Elements
+        const readingHoursRange = document.getElementById('reading-hours-range');
+        const readingHoursVal = document.getElementById('reading-hours-val');
+        const brightnessRange = document.getElementById('brightness-range');
+        const brightnessVal = document.getElementById('brightness-val');
+
+        const daysBooxPageEl = document.getElementById('days-boox-page');
+        const progressBooxPageEl = document.getElementById('progress-boox-page');
+        const daysBigmeEl = document.getElementById('days-bigme');
+        const progressBigmeEl = document.getElementById('progress-bigme');
+        const daysMeebookEl = document.getElementById('days-meebook');
+        const progressMeebookEl = document.getElementById('progress-meebook');
+        const daysPokeEl = document.getElementById('days-poke');
+        const progressPokeEl = document.getElementById('progress-poke');
+
+        // State variables
+        let dailyReadingHours = parseFloat(readingHoursRange.value);
+        let wifiSetting = 'smart'; // Default: auto timeout
+        let brightnessLevel = parseInt(brightnessRange.value);
+
+        // Core calculation logic simulating Android e-ink discharge behavior
+        // Total mA capacity: Onyx Page (2300), Bigme B751 (2300), Meebook (2900), Poke 5 (1500)
+        // Standby drain per day (with Wi-Fi):
+        //   - always: 5% (Onyx/Meebook), 8% (Bigme), 6% (Poke 5)
+        //   - smart: 1.5% (Onyx/Meebook), 2.5% (Bigme), 2% (Poke 5)
+        //   - off: 0.8% (Onyx/Meebook), 1.5% (Bigme), 1% (Poke 5)
+        // Active usage drain per hour (with backlight factor):
+        //   - Base active screen refresh: ~1.2% per hour
+        //   - Wi-Fi active factor (always on): +1.8% per hour
+        //   - Backlight factor: up to +1.5% per hour at 100% brightness
+
+        function calculateBatteryLife() {
+            // Devices configurations
+            const devices = {
+                booxPage: {
+                    capacity: 2300,
+                    efficiency: 1.0, // Best background app management
+                    baseStandby: 1.2, // % per day off
+                    baseActive: 2.2, // % per hour active screen (no wifi, no light)
+                },
+                bigme: {
+                    capacity: 2300,
+                    efficiency: 1.4, // Higher power drain (octa core MTK, less background freeze)
+                    baseStandby: 2.0,
+                    baseActive: 3.2,
+                },
+                meebook: {
+                    capacity: 2900,
+                    efficiency: 0.95, // Big battery + quad core
+                    baseStandby: 1.1,
+                    baseActive: 2.4,
+                },
+                poke: {
+                    capacity: 1500,
+                    efficiency: 1.1, // Small battery
+                    baseStandby: 1.5,
+                    baseActive: 2.8,
+                }
+            };
+
+            // Calculate multipliers based on inputs
+            let wifiStandbyFactor = 1.0;
+            let wifiActiveFactor = 0.0;
+            if (wifiSetting === 'always') {
+                wifiStandbyFactor = 3.5;
+                wifiActiveFactor = 2.0;
+            } else if (wifiSetting === 'smart') {
+                wifiStandbyFactor = 1.2;
+                wifiActiveFactor = 0.3;
+            } else {
+                wifiStandbyFactor = 0.8;
+                wifiActiveFactor = 0.0;
+            }
+
+            const brightnessFactor = (brightnessLevel / 100) * 1.5;
+
+            // Compute for each device
+            for (const [key, dev] of Object.entries(devices)) {
+                // Standby drain % per day
+                const standbyDrainPercent = dev.baseStandby * wifiStandbyFactor;
+                // Active usage drain % per hour
+                const activeDrainPercent = (dev.baseActive + wifiActiveFactor + brightnessFactor) * dev.efficiency;
+
+                // Daily drain = standby for remaining 24 hours + active usage
+                const activeTime = dailyReadingHours;
+                const standbyTimeFraction = (24 - activeTime) / 24;
+
+                const dailyTotalPercent = (standbyDrainPercent * standbyTimeFraction) + (activeDrainPercent * activeTime);
+                
+                // Estimated days = 100% / daily total percent
+                let days = Math.round(100 / dailyTotalPercent);
+
+                // Cap logically
+                if (days < 1) days = 1;
+                if (days > 45) days = 45; // Max standby limits for android e-ink
+
+                // UI mapping
+                if (key === 'booxPage') {
+                    daysBooxPageEl.innerHTML = `${days} <span class="text-sm font-medium text-slate-500">днів</span>`;
+                    progressBooxPageEl.style.width = `${Math.min(100, (days / 45) * 100)}%`;
+                } else if (key === 'bigme') {
+                    daysBigmeEl.innerHTML = `${days} <span class="text-sm font-medium text-slate-500">днів</span>`;
+                    progressBigmeEl.style.width = `${Math.min(100, (days / 45) * 100)}%`;
+                } else if (key === 'meebook') {
+                    daysMeebookEl.innerHTML = `${days} <span class="text-sm font-medium text-slate-500">днів</span>`;
+                    progressMeebookEl.style.width = `${Math.min(100, (days / 45) * 100)}%`;
+                } else if (key === 'poke') {
+                    daysPokeEl.innerHTML = `${days} <span class="text-sm font-medium text-slate-500">днів</span>`;
+                    progressPokeEl.style.width = `${Math.min(100, (days / 45) * 100)}%`;
+                }
+            }
+        }
+
+        // Event Listeners for controls
+        readingHoursRange.addEventListener('input', (e) => {
+            dailyReadingHours = parseFloat(e.target.value);
+            readingHoursVal.innerText = dailyReadingHours === 0.5 ? '30 хв' : `${dailyReadingHours} год`;
+            calculateBatteryLife();
+        });
+
+        brightnessRange.addEventListener('input', (e) => {
+            brightnessLevel = parseInt(e.target.value);
+            brightnessVal.innerText = `${brightnessLevel}%`;
+            calculateBatteryLife();
+        });
+
+        window.setWifi = function(mode) {
+            wifiSetting = mode;
+            // Update button styles
+            document.querySelectorAll('.wifi-btn').forEach(btn => {
+                btn.className = 'wifi-btn px-3 py-1.5 text-xs font-semibold rounded-lg border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 transition';
+            });
+            const activeBtn = document.getElementById(`wifi-${mode}`);
+            if (activeBtn) {
+                activeBtn.className = 'wifi-btn px-3 py-1.5 text-xs font-semibold rounded-lg border border-indigo-600 bg-indigo-50 text-indigo-700 transition';
+            }
+            calculateBatteryLife();
+        };
+
+        // Initial launch
+        window.addEventListener('DOMContentLoaded', () => {
+            calculateBatteryLife();
+        });
+    </script>
+</body>
+</html>
