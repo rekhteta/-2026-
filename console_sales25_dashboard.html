@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Офіційні продажі консолей - Календарний 2025 рік</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border-radius: 1rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800 p-4 md:p-8 min-h-screen flex flex-col items-center">
+    <header class="w-full max-w-6xl mb-8 text-center md:text-left">
+        <h1 class="text-3xl md:text-5xl font-bold text-gray-900 mb-2 tracking-tight">Ринок Консолей <span class="text-blue-600">2025</span></h1>
+        <p class="text-gray-500 text-lg">Офіційні дані та оцінки глобальних продажів за 12 місяців (Календарний 2025 рік)</p>
+    </header>
+
+    <main class="w-full max-w-6xl grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- Загальні продажі (Bar Chart) -->
+        <section class="glass-card p-6 flex flex-col justify-center">
+            <h2 class="text-xl font-semibold mb-4 text-center">Продажі за календарний 2025 рік</h2>
+            <div class="relative h-64 md:h-80 w-full">
+                <canvas id="barChart"></canvas>
+            </div>
+            <p class="text-xs text-gray-400 mt-2 text-center">Дані відображають продажі всієї лінійки консолей кожного виробника.</p>
+        </section>
+
+        <!-- Частка ринку (Doughnut Chart) -->
+        <section class="glass-card p-6 flex flex-col justify-center">
+            <h2 class="text-xl font-semibold mb-4 text-center">Частка продажів (Календарний 2025 рік)</h2>
+            <div class="relative h-64 md:h-80 w-full">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Таблиця з точними даними -->
+        <section class="glass-card p-6 lg:col-span-2 overflow-hidden">
+            <h2 class="text-xl font-semibold mb-4">Детальна статистика (1 січня – 31 грудня 2025 року)</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-100 text-gray-700">
+                            <th class="p-4 rounded-tl-lg font-semibold whitespace-nowrap">Виробник</th>
+                            <th class="p-4 font-semibold">Актуальні пристрої (2025)</th>
+                            <th class="p-4 font-semibold text-right whitespace-nowrap">Продажі у 2025 (млн од.)</th>
+                            <th class="p-4 rounded-tr-lg font-semibold text-left">Статус та верифікація даних</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Nintendo Row -->
+                        <tr class="border-b border-gray-100 hover:bg-red-50 transition-colors duration-200">
+                            <td class="p-4 flex items-center font-bold text-red-600">Nintendo</td>
+                            <td class="p-4 text-sm">Switch 2 + Switch 1</td>
+                            <td class="p-4 text-right font-bold text-lg">20.56</td>
+                            <td class="p-4 text-sm text-gray-600">
+                                <strong>Офіційні звіти.</strong> Вихід нової Switch 2 дозволив Nintendo стати лідером 2025 року.<br>
+                                <a href="https://www.nintendo.co.jp/ir/en/finance/hard_soft/index.html" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 hover:underline mt-2 inline-flex items-center gap-1 font-medium transition-colors">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                    Дані Nintendo IR (Hard/Soft Sales)
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- Sony Row -->
+                        <tr class="border-b border-gray-100 hover:bg-blue-50 transition-colors duration-200">
+                            <td class="p-4 flex items-center font-bold text-blue-600">Sony</td>
+                            <td class="p-4 text-sm">PlayStation 5 (всі ревізії)</td>
+                            <td class="p-4 text-right font-bold text-lg">17.41</td>
+                            <td class="p-4 text-sm text-gray-600">
+                                <strong>Офіційний звіт (IR).</strong> Відвантаження за календарний рік, з урахуванням виходу PS5 Pro.<br>
+                                <a href="https://www.sony.com/en/SonyInfo/IR/library/presen/er/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 hover:underline mt-2 inline-flex items-center gap-1 font-medium transition-colors">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                    Звіти Sony Group (FY2025)
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- Microsoft Row -->
+                        <tr class="hover:bg-green-50 transition-colors duration-200">
+                            <td class="p-4 flex items-center font-bold text-green-600">Microsoft</td>
+                            <td class="p-4 text-sm">Xbox Series X та S</td>
+                            <td class="p-4 text-right font-bold text-lg">2.55</td>
+                            <td class="p-4 text-sm text-gray-600">
+                                <strong>Оцінки аналітиків.</strong> MS офіційно не публікує обсяги продажів. Дані базуються на трекінгу.<br>
+                                <a href="https://www.vgchartz.com/tools/hw_yoy.php" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:text-green-800 hover:underline mt-2 inline-flex items-center gap-1 font-medium transition-colors">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                    Глобальний трекінг VGChartz
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-xs text-gray-400 mt-4 text-right">* Джерела: Фінансові звіти компаній (розділи Investor Relations) та дані глобального трекінгу VGChartz.</p>
+        </section>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Data configuration
+            const labels = ['Nintendo (Switch 1+2)', 'Sony (PS5)', 'Microsoft (Xbox)'];
+            const dataSales = [20.56, 17.41, 2.55]; // Data in millions
+
+            // Styling configuration
+            const colors = {
+                nintendo: 'rgba(229, 9, 20, 0.8)',
+                playstation: 'rgba(0, 55, 145, 0.8)',
+                xbox: 'rgba(16, 124, 16, 0.8)'
+            };
+            const borderColors = {
+                nintendo: 'rgba(229, 9, 20, 1)',
+                playstation: 'rgba(0, 55, 145, 1)',
+                xbox: 'rgba(16, 124, 16, 1)'
+            };
+
+            // 1. Bar Chart
+            const ctxBar = document.getElementById('barChart').getContext('2d');
+            new Chart(ctxBar, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Продажі за 2025 рік (млн од.)',
+                        data: dataSales,
+                        backgroundColor: [colors.nintendo, colors.playstation, colors.xbox],
+                        borderColor: [borderColors.nintendo, borderColors.playstation, borderColors.xbox],
+                        borderWidth: 2,
+                        borderRadius: 6,
+                        hoverBackgroundColor: [borderColors.nintendo, borderColors.playstation, borderColors.xbox]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return context.parsed.y + ' млн од.';
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Мільйони одиниць',
+                                font: { family: 'Inter', size: 12 }
+                            },
+                            grid: { color: 'rgba(0, 0, 0, 0.05)' }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: {
+                                font: { family: 'Inter', weight: 'bold' }
+                            }
+                        }
+                    },
+                    animation: {
+                        duration: 1500,
+                        easing: 'easeOutQuart'
+                    }
+                }
+            });
+
+            // 2. Pie/Doughnut Chart
+            const ctxPie = document.getElementById('pieChart').getContext('2d');
+            new Chart(ctxPie, {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: dataSales,
+                        backgroundColor: [colors.nintendo, colors.playstation, colors.xbox],
+                        borderColor: '#ffffff',
+                        borderWidth: 3,
+                        hoverOffset: 10
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '65%', 
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true,
+                                pointStyle: 'circle',
+                                font: { family: 'Inter' }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.label || '';
+                                    let value = context.parsed || 0;
+                                    let total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    let percentage = Math.round((value / total) * 100) + '%';
+                                    return ` ${label}: ${percentage} (${value} млн)`;
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        animateScale: true,
+                        animateRotate: true,
+                        duration: 1500,
+                        easing: 'easeOutQuart'
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
